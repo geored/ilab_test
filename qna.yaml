@@ -1,0 +1,10 @@
+version: 3
+created_by: geored
+domain: emails
+seed_examples:
+  - context: |
+        RERC Service outage will happen on day 30/09/2024 and will last for 2 hours
+    questions_and_answers:
+      - answer: Service outage is scheduled for date 29/09/2024
+        question: When service outage is scheduled?
+task_description: 'Answering service outage date'
